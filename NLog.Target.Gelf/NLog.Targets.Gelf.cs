@@ -13,7 +13,7 @@ using NLog.Config;
 namespace NLog.Targets.Gelf
 {
     [Target("Gelf")]
-    public sealed class GelfTarget : Target
+    public class GelfTarget : Target
     {
         #region Private Members
 
